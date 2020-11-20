@@ -6,9 +6,9 @@ jobs:
   
   demonstration:
 
-  runs-on: ubuntu-20.04
+    runs-on: ubuntu-20.04
 
-  steps:
+    steps:
 
-  - name: just print something to the console
-    run: echo This is another workflow
+      - name: Run a one-line script
+        run: echo Hello, Tesena Fest!
