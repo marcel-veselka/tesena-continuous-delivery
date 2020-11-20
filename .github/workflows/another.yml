@@ -11,4 +11,6 @@ jobs:
     steps:
 
       - name: Run a one-line script
-        run: echo Hello, Tesena Fest!
+        run: |
+          echo Hello, Tesena Fest!
+          echo Hi Aaron, Thanks for awsome workshop!
